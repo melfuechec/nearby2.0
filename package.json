@@ -1,0 +1,30 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon run server/server.js",
+    "client": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "axios": "^0.19.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
